@@ -1,65 +1,89 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import React from 'react';
+// nodejs library that concatenates classes
+import classNames from 'classnames';
+// react components for routing our app without refresh
+import Link from 'next/link';
+// @material-ui/core components
+import { makeStyles } from '@material-ui/core/styles';
+// @material-ui/icons
+// core components
+import Header from 'components/Header/Header.js';
+import HeaderLinks from 'components/Header/HeaderLinks.js';
+import Footer from 'components/Footer/Footer.js';
+import GridContainer from 'components/Grid/GridContainer.js';
+import GridItem from 'components/Grid/GridItem.js';
+import Button from 'components/CustomButtons/Button.js';
+import Parallax from 'components/Parallax/Parallax.js';
+// sections for this page
+import SectionBasics from 'pages-sections/Components-Sections/SectionBasics.js';
+import SectionNavbars from 'pages-sections/Components-Sections/SectionNavbars.js';
+import SectionTabs from 'pages-sections/Components-Sections/SectionTabs.js';
+import SectionPills from 'pages-sections/Components-Sections/SectionPills.js';
+import SectionNotifications from 'pages-sections/Components-Sections/SectionNotifications.js';
+import SectionTypography from 'pages-sections/Components-Sections/SectionTypography.js';
+import SectionJavascript from 'pages-sections/Components-Sections/SectionJavascript.js';
+import SectionCarousel from 'pages-sections/Components-Sections/SectionCarousel.js';
+import SectionCompletedExamples from 'pages-sections/Components-Sections/SectionCompletedExamples.js';
+import SectionLogin from 'pages-sections/Components-Sections/SectionLogin.js';
+import SectionExamples from 'pages-sections/Components-Sections/SectionExamples.js';
+import SectionDownload from 'pages-sections/Components-Sections/SectionDownload.js';
 
-export default function Home() {
+import styles from 'assets/jss/nextjs-material-kit/pages/components.js';
+
+const useStyles = makeStyles(styles);
+
+export default function Home(props) {
+  const classes = useStyles();
+  const { ...rest } = props;
   return (
-    <div className={styles.container}>
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
-
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
-
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
+    <div>
+      <Header
+        brand='Jūrate Lajauskaite'
+        rightLinks={<HeaderLinks />}
+        fixed
+        color='transparent'
+        changeColorOnScroll={{
+          height: 400,
+          color: 'white',
+        }}
+        {...rest}
+      />
+      <Parallax image={require('assets/img/header.jpg')}>
+        <div className={classes.container}>
+          <GridContainer>
+            <GridItem>
+              <div className={classes.brand}>
+                <h1 className={classes.title}>Koučingas</h1>
+                <h3 className={classes.subtitle}>Aiškumo, atsakymų ir sprendimų linkme.</h3>
+              </div>
+            </GridItem>
+          </GridContainer>
         </div>
-      </main>
-
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
-      </footer>
+      </Parallax>
+      <div className={classNames(classes.main, classes.mainRaised)}>
+        <SectionBasics />
+        <SectionNavbars />
+        <SectionTabs />
+        <SectionPills />
+        <SectionNotifications />
+        <SectionTypography />
+        <SectionJavascript />
+        <SectionCarousel />
+        <SectionCompletedExamples />
+        <SectionLogin />
+        <GridItem md={12} className={classes.textCenter}>
+          <Link href='/login'>
+            <a className={classes.link}>
+              <Button color='primary' size='lg' simple>
+                View Login Page
+              </Button>
+            </a>
+          </Link>
+        </GridItem>
+        <SectionExamples />
+        <SectionDownload />
+      </div>
+      <Footer />
     </div>
-  )
+  );
 }
