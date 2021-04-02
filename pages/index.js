@@ -18,6 +18,7 @@ import Parallax from 'components/Parallax/Parallax.js';
 import SectionBasics from 'pages-sections/Components-Sections/SectionBasics.js';
 import SectionNavbars from 'pages-sections/Components-Sections/SectionNavbars.js';
 import SectionTabs from 'pages-sections/Components-Sections/SectionTabs.js';
+import SectionPradekime from 'pages-sections/Box-Sections/SectionPradekime.js';
 import SectionPills from 'pages-sections/Components-Sections/SectionPills.js';
 import SectionNotifications from 'pages-sections/Components-Sections/SectionNotifications.js';
 import SectionTypography from 'pages-sections/Components-Sections/SectionTypography.js';
@@ -61,6 +62,7 @@ export default function Home(props) {
         </div>
       </Parallax>
       <div className={classNames(classes.main, classes.mainRaised)}>
+        <SectionPradekime />
         <SectionBasics />
         <SectionNavbars />
         <SectionTabs />
