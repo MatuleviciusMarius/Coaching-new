@@ -10,7 +10,7 @@ import Tooltip from '@material-ui/core/Tooltip';
 import Icon from '@material-ui/core/Icon';
 
 // @material-ui/icons
-import { Apps, ArrowForwardIos } from '@material-ui/icons';
+import { ArrowForwardIos } from '@material-ui/icons';
 import DeleteIcon from '@material-ui/icons/Delete';
 import IconButton from '@material-ui/core/IconButton';
 
@@ -27,33 +27,36 @@ export default function HeaderLinks(props) {
   return (
     <List className={classes.list}>
       <ListItem className={classes.listItem}>
-        <Button
-          href='https://www.creative-tim.com/product/nextjs-material-kit?ref=njsmk-navbar'
-          color='transparent'
-          target='_blank'
-          className={classes.navLink}>
+        <Button href='https://m.me/100321648345259' color='transparent' target='_blank' className={classes.navLink}>
           <ArrowForwardIos className={classes.icons} /> Pradėkime
         </Button>
       </ListItem>
       <ListItem className={classes.listItem}>
-        <Tooltip
-          id='instagram-twitter'
-          title='Follow us on twitter'
-          placement={'top'}
-          classes={{ tooltip: classes.tooltip }}>
+        <Tooltip id='linkedin' title='Sekite mane Linkedin' placement={'top'} classes={{ tooltip: classes.tooltip }}>
           <Button
             href='https://twitter.com/CreativeTim?ref=creativetim'
             target='_blank'
             color='transparent'
             className={classes.navLink}>
-            <i className={classes.socialIcons + ' fab fa-twitter'} />
+            <i className={classes.socialIcons + ' fab fa-linkedin'} />
+          </Button>
+        </Tooltip>
+      </ListItem>
+      <ListItem className={classes.listItem}>
+        <Tooltip id='email' title='Susisiekite email' placement={'top'} classes={{ tooltip: classes.tooltip }}>
+          <Button
+            href='mailto:jurate.lajauskaite@gmail.com'
+            target='_blank'
+            color='transparent'
+            className={classes.navLink}>
+            <i className={classes.socialIcons + ' fa fa-envelope'} />
           </Button>
         </Tooltip>
       </ListItem>
       <ListItem className={classes.listItem}>
         <Tooltip
           id='instagram-facebook'
-          title='Follow us on facebook'
+          title='Sekite mane facebook'
           placement={'top'}
           classes={{ tooltip: classes.tooltip }}>
           <Button
@@ -62,21 +65,6 @@ export default function HeaderLinks(props) {
             target='_blank'
             className={classes.navLink}>
             <i className={classes.socialIcons + ' fab fa-facebook'} />
-          </Button>
-        </Tooltip>
-      </ListItem>
-      <ListItem className={classes.listItem}>
-        <Tooltip
-          id='instagram-tooltip'
-          title='Follow us on instagram'
-          placement={'top'}
-          classes={{ tooltip: classes.tooltip }}>
-          <Button
-            color='transparent'
-            href='https://www.instagram.com/CreativeTimOfficial?ref=creativetim'
-            target='_blank'
-            className={classes.navLink}>
-            <i className={classes.socialIcons + ' fab fa-instagram'} />
           </Button>
         </Tooltip>
       </ListItem>

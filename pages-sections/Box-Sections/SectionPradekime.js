@@ -2,10 +2,6 @@ import React from 'react';
 // @material-ui/core components
 import { makeStyles } from '@material-ui/core/styles';
 
-// @material-ui/icons
-import Face from '@material-ui/icons/Face';
-import Chat from '@material-ui/icons/Chat';
-import Build from '@material-ui/icons/Build';
 // core components
 import GridContainer from 'components/Grid/GridContainer.js';
 import GridItem from 'components/Grid/GridItem.js';
@@ -36,7 +32,7 @@ export default function SectionPradekime() {
       <div className={classes.container}>
         <div id='nav-tabs'>
           <h3 className={classes.textCenter}>Mielieji, aš labai džiaugiuosi, kad Jūs esate čia</h3>
-          <Button color='transparent' center onClick={() => setClassicModal(true)}>
+          <Button color='transparent' onClick={() => setClassicModal(true)}>
             Straipsnis
           </Button>
           <Dialog
