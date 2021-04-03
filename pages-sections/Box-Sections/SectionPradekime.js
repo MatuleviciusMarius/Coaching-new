@@ -31,10 +31,14 @@ export default function SectionPradekime() {
     <div className={classes.section}>
       <div className={classes.container}>
         <div id='nav-tabs'>
-          <h3 className={classes.textCenter}>Mielieji, aš labai džiaugiuosi, kad Jūs esate čia</h3>
-          <Button color='transparent' onClick={() => setClassicModal(true)}>
-            Straipsnis
-          </Button>
+          <h3 className={classes.mainText}>
+            Mielieji, aš labai džiaugiuosi, <br /> kad Jūs esate čia
+          </h3>
+          <div className={classes.buttonContainer}>
+            <Button color='transparent' onClick={() => setClassicModal(true)}>
+              Straipsnis
+            </Button>
+          </div>
           <Dialog
             classes={{
               root: classes.center,
@@ -47,15 +51,7 @@ export default function SectionPradekime() {
             aria-labelledby='classic-modal-slide-title'
             aria-describedby='classic-modal-slide-description'>
             <DialogTitle id='classic-modal-slide-title' disableTypography className={classes.modalHeader}>
-              <IconButton
-                className={classes.modalCloseButton}
-                key='close'
-                aria-label='Close'
-                color='inherit'
-                onClick={() => setClassicModal(false)}>
-                <Close className={classes.modalClose} />
-              </IconButton>
-              <h4 className={classes.modalTitle}>Modal title</h4>
+              <h4 className={classes.modalTitle}>Straipsnis</h4>
             </DialogTitle>
             <DialogContent id='classic-modal-slide-description' className={classes.modalBody}>
               <p>
@@ -69,7 +65,7 @@ export default function SectionPradekime() {
               </p>
             </DialogContent>
             <DialogActions className={classes.modalFooter}>
-              <Button onClick={() => setClassicModal(false)} color='danger' simple>
+              <Button onClick={() => setClassicModal(false)} color='primary' simple>
                 Uždaryti
               </Button>
             </DialogActions>

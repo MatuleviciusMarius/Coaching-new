@@ -39,7 +39,7 @@ export default function Home(props) {
   return (
     <div>
       <Header
-        brand='Jūrate Lajauskaite'
+        brand='Jūrate Lajauskaitė'
         rightLinks={<HeaderLinks />}
         fixed
         color='transparent'
@@ -49,12 +49,12 @@ export default function Home(props) {
         }}
         {...rest}
       />
-      <Parallax image={require('assets/img/header.jpg')}>
+      <Parallax image={require('assets/img/header-min.jpg')}>
         <div className={classes.container}>
           <GridContainer>
             <GridItem>
               <div className={classes.brand}>
-                <h1 className={classes.title}>Koučingas</h1>
+                <h1 className={classes.title}>Paauglių ir Jaunimo koučingas</h1>
                 <h3 className={classes.subtitle}>Aiškumo, atsakymų ir sprendimų linkme.</h3>
               </div>
             </GridItem>
@@ -63,27 +63,6 @@ export default function Home(props) {
       </Parallax>
       <div className={classNames(classes.main, classes.mainRaised)}>
         <SectionPradekime />
-        <SectionBasics />
-        <SectionNavbars />
-        <SectionTabs />
-        <SectionPills />
-        <SectionNotifications />
-        <SectionTypography />
-        <SectionJavascript />
-        <SectionCarousel />
-        <SectionCompletedExamples />
-        <SectionLogin />
-        <GridItem md={12} className={classes.textCenter}>
-          <Link href='/login'>
-            <a className={classes.link}>
-              <Button color='primary' size='lg' simple>
-                View Login Page
-              </Button>
-            </a>
-          </Link>
-        </GridItem>
-        <SectionExamples />
-        <SectionDownload />
       </div>
       <Footer />
     </div>

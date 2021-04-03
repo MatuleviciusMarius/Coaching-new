@@ -1,6 +1,11 @@
 import { container } from 'assets/jss/nextjs-material-kit.js';
 import juratePhoto from 'assets/img/Jurate/Jurate-5.png';
 
+const textPosition = {
+  textAlign: 'center',
+  padding: '0 15% 0 0',
+};
+
 const tabsStyle = {
   section: {
     background: '#dedede',
@@ -11,10 +16,14 @@ const tabsStyle = {
     padding: '70px 0',
   },
   container,
-  textCenter: {
-    textAlign: 'center',
-    fontSize: '6rem',
+  mainText: {
+    ...textPosition,
+    fontSize: '5rem',
     fontFamily: '"GreatVibes", "Helvetica", "Arial", sans-serif',
+  },
+  buttonContainer: {
+    ...textPosition,
+    fontSize: '5rem',
   },
 };
 
