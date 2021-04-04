@@ -15,7 +15,7 @@ import IconButton from '@material-ui/core/IconButton';
 import Close from '@material-ui/icons/Close';
 import Slide from '@material-ui/core/Slide';
 
-import styles from 'assets/jss/nextjs-material-kit/pages/BoxSections/sectionPradekime.js';
+import styles from 'assets/jss/nextjs-material-kit/pages/BoxSections/sectionAbout.js';
 
 const useStyles = makeStyles(styles);
 
@@ -31,12 +31,10 @@ export default function SectionPradekime() {
     <div className={classes.section}>
       <div className={classes.container}>
         <div id='nav-tabs'>
-          <h3 className={classes.mainText}>
-            Mielieji, aš labai džiaugiuosi, <br /> kad <span className={classes.orangeFont}>Jūs</span> esate čia
-          </h3>
+          <h3 className={classes.mainText}>Jūratė Lajauskaitė</h3>
           <div className={classes.buttonContainer}>
             <Button className={classes.buttonText} color='transparent' onClick={() => setClassicModal(true)}>
-              Kaip koučingas gali padėti tapti laimingesniais?
+              Apie mane
             </Button>
           </div>
           <Dialog

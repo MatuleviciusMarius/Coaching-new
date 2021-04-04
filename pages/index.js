@@ -19,6 +19,8 @@ import SectionBasics from 'pages-sections/Components-Sections/SectionBasics.js';
 import SectionNavbars from 'pages-sections/Components-Sections/SectionNavbars.js';
 import SectionTabs from 'pages-sections/Components-Sections/SectionTabs.js';
 import SectionPradekime from 'pages-sections/Box-Sections/SectionPradekime.js';
+import SectionWhatIs from 'pages-sections/Box-Sections/SectionWhatIs.js';
+import SectionAbout from 'pages-sections/Box-Sections/SectionAbout.js';
 import SectionPills from 'pages-sections/Components-Sections/SectionPills.js';
 import SectionNotifications from 'pages-sections/Components-Sections/SectionNotifications.js';
 import SectionTypography from 'pages-sections/Components-Sections/SectionTypography.js';
@@ -55,7 +57,7 @@ export default function Home(props) {
             <GridItem>
               <div className={classes.brand}>
                 <h1 className={classes.title}>Paauglių ir Jaunimo koučingas</h1>
-                <h3 className={classes.subtitle}>Aiškumo, atsakymų ir sprendimų linkme.</h3>
+                <h3 className={classes.subtitle}>Aiškumo, atsakymų ir sprendimų linkme</h3>
               </div>
             </GridItem>
           </GridContainer>
@@ -63,6 +65,8 @@ export default function Home(props) {
       </Parallax>
       <div className={classNames(classes.main, classes.mainRaised)}>
         <SectionPradekime />
+        <SectionWhatIs />
+        <SectionAbout />
       </div>
       <Footer />
     </div>
