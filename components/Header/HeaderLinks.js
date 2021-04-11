@@ -65,7 +65,11 @@ export default function HeaderLinks(props) {
       </ListItem>
       <ListItem className={classes.listItem}>
         <Tooltip id='Messenger' title='Susirašykime' placement={'top'} classes={{ tooltip: classes.tooltip }}>
-          <Button color='transparent' href='https://m.me/100321648345259' target='_blank' className={classes.navLink}>
+          <Button
+            color='transparent'
+            href='https://m.me/jurate.lajauskaite'
+            target='_blank'
+            className={classes.navLink}>
             <i className={classes.socialIcons + ' fa fa-comments'} />
           </Button>
         </Tooltip>
