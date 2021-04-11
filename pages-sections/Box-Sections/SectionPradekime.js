@@ -51,17 +51,78 @@ export default function SectionPradekime() {
             aria-labelledby='classic-modal-slide-title'
             aria-describedby='classic-modal-slide-description'>
             <DialogTitle id='classic-modal-slide-title' disableTypography className={classes.modalHeader}>
-              <h4 className={classes.modalTitle}>Straipsnis</h4>
+              <h4 className={classes.modalTitle}>Kaip koučingas gali padėti tapti laimingesniais?</h4>
             </DialogTitle>
             <DialogContent id='classic-modal-slide-description' className={classes.modalBody}>
               <p>
-                Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
-                blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language
-                ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It
-                is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the
-                all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day
-                however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of
-                Grammar.
+                Taigi, kaip aš koučingo pagalba galiu padėti tėvams ruošti savo paauglius savarankiškam gyvenimui ir
+                prisidėti prie jų gerovės puoselėjimo? Štai keletas pagrindinių sričių:
+              </p>
+              <p className={classes.padding}>
+                <b>Savarankiškumo skatinimas.</b> Koučingo (ugdomojo vadovavimo) santykių esmė yra ne patarti, o ugdyti.
+                Savo jauniesiems klientams/ėms aš nesakau nei ką daryti, nei ko nedaryti. Pokalbio metu padedu atrasti
+                naujų vidinių ir išorinių išteklių, kurių pagalba jie patys gali spręsti įvairias problemas, užduotis,
+                įveikti kliūtis, siekti tikslų, priimti sprendimus. Užuot pateikusi atsakymus, aš juos kviečiu į
+                pokalbį, kurio metu atsakymai ateina iš jų pačių. Jaunuoliai/ės patys atsako už savo pasirinktus
+                žingsnius ir jų vykdymą. Norėdami kurti pokyčius ar siekti tikslų, jie patys turi imtis veiksmų ir
+                niekas kitas už juos to nepadarys.
+              </p>
+              <p className={classes.padding}>
+                <b>Pasitikėjimo savimi kūrimas.</b> Koučingo metodas skirtas pabrėžti jaunimo stipriąsias puses, sėkmes,
+                prigimtinius talentus ir gebėjimus. Daug dėmesio skiriu tam, kas jau sėkmingai veikia ir kaip tai galima
+                auginti. Jaunuoliai/ės pradeda suprasti ką jie gali, kokių turi unikalių būdo bruožų ir kaip juos
+                panaudoti, kaip išgyventi sunkius momentus, kaip pasirinkti gyvenimo kryptį ir daryti pažangą, siekti
+                tikslų. Bet vien tik stipriosiomis pusėmis neapsiriboju, ieškome ir tų sričių, kuriose augimas yra
+                naudingas ir būtinas, orientuojamės į savęs tobulinimą.
+              </p>
+              <p className={classes.padding}>
+                <b>Tapti savimi.</b> Koučingas yra mokymasis apie save. Grįžtamojo ryšio metu jaunuoliai/ės per savo
+                mintis, įsitikinimus, patirtis ir norus pradeda geriau ir giliau pažinti save. Norint pasitikėti savimi
+                ir turėti tvirtą vidinį stuburą, būtina pažinti save, kad sužinoti kas esi iš tiesų ir kokiu gyvenimo
+                keliu eiti prasmingiau. Kuo labiau jaunuoliai pažįsta save, tuo labiau jie pasitiki savimi, o tai mažina
+                nerimą, didina motyvaciją, labiau pasitikima savimi priimant ir paprastus ir reikšmingus sprendimus,
+                kurie nulems jų gyvenimą.
+              </p>
+              <p className={classes.padding}>
+                <b>Sveikų įpročių kūrimas.</b> Koučingas padeda rasti labiausiai tinkamus ir geriausius būdus kaip
+                pasirūpinti savo kūnu, protu ir siela.
+              </p>
+              <p className={classes.padding}>
+                <b>Pagarba sau.</b> Paauglių ir jaunimo koučingas padeda puoselėti savigarbą, įžvelgti ir auginti savo
+                vertę, gerbti savo artimuosius ir aplinkinius.
+              </p>
+              <p className={classes.padding}>
+                <b>Santykiai, bendravimo įgūdžiai.</b> Jaunimo gerovė ir laimė, fizinė ir psichinė sveikata, profesinė
+                ir asmeninė sėkmė stipriai susiję su santykių kokybe. Koučingas padeda mokytis bendravimo, kaip
+                puoselėti sveikus santykius, spręsti konfliktus, nustatyti ribas santykiuose ir mažinti stresą bei
+                nerimą.
+              </p>
+              <p className={classes.padding}>
+                <b>Ateities kūrimas.</b> Koučingo metodo dėka padedu savo jauniesiems klientams/ėms suformuluoti ir
+                vizualizuoti savo norimą ateitį bei tai, ką jie turi padaryti, kad ją pasiektų. Kuo labiau paaugliai yra
+                emociškai susieti su savo tikslais ir svajonėmis, tuo didesnė tikimybė, kad jų pasieks.
+              </p>
+
+              <p>
+                Koučingo pokalbio metu kuriu jaukią ir saugią erdvę, kurioje mano jaunieji klientai/ės gali nevaržomai
+                reikšti savo mintis, jausmus, įsitikinimus, norus ir svajones, nesibaiminant kritikos ar nepriėmimo.
+                Kuriu gilų prasminį ryšį ir pasitikėjimą, užtikrinu konfidencialumą.
+              </p>
+              <p>
+                Taigi, jei norite savo paaugliui/ei padėti atrasti naujas galimybes tapti savarankišku, pasitikinčiu
+                savimi, sąmoningu, sveiku, garbingu, motyvuotu, puikiai bendraujančiu ir susitelkusiu į pilnavertės
+                ateities kūrimą, kodėl Jums nepagalvojus apie paauglių koučingą.
+              </p>
+              <p>
+                Norite sužinoti ar bendradarbiavimas su manimi Jums yra tinkamas? Pirmasis 45 minučių pokalbis yra
+                nemokamas. Nėra jokių įsipareigojimų. Tai tik galimybė susitikti, pasimatyti (arba pasikalbėti telefonu)
+                ir tuomet nuspręsti.
+              </p>
+              <p>
+                Tikiuosi netrukus susisiekti su Jumis!
+                <br />
+                Jūratė <br />
+                Tel. <a href='tel:+37061280062'>+37061280062</a>
               </p>
             </DialogContent>
             <DialogActions className={classes.modalFooter}>

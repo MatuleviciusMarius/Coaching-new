@@ -25,11 +25,13 @@ const tabsStyle = {
     ...textPosition,
   },
   buttonText: {
-    // fontSize: '1.5rem',
     textDecoration: 'underline',
   },
   orangeFont: {
     color: '#f19953',
+  },
+  padding: {
+    paddingLeft: '7%',
   },
 };
 

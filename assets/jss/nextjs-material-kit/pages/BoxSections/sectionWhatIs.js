@@ -33,6 +33,9 @@ const tabsStyle = {
   orangeFont: {
     color: '#f19953',
   },
+  paddingLeft: {
+    paddingLeft: '7%',
+  },
 };
 
 export default tabsStyle;

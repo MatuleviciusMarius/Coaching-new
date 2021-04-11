@@ -49,18 +49,27 @@ export default function SectionPradekime() {
             aria-labelledby='classic-modal-slide-title'
             aria-describedby='classic-modal-slide-description'>
             <DialogTitle id='classic-modal-slide-title' disableTypography className={classes.modalHeader}>
-              <h4 className={classes.modalTitle}>Straipsnis</h4>
+              <h4 className={classes.modalTitle}>Jūratė Lajauskaitė</h4>
             </DialogTitle>
             <DialogContent id='classic-modal-slide-description' className={classes.modalBody}>
               <p>
-                Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
-                blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language
-                ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It
-                is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the
-                all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day
-                however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of
-                Grammar.
+                Esu sertifikuota profesionali Erickson Coaching International koučerė. <br />
+                Nuo 2019 m. dirbu paauglių ir jaunimo koučere.
               </p>
+              <p>
+                Esu ICF - International Coaching Federation - Global ir ICF - International Coaching Federation -
+                Lietuva narė.
+              </p>
+              <p>
+                Turiu Vilniaus Universiteto ekonomikos magistro laipsnį. <br />
+                2019-2020 m. LUMA Lietuvos universitetų moterų asociacijos narė. <br />
+                Nuo 2020 m. siekiu ACC - Associate Certified Coach - akreditacijos.
+              </p>
+              <p>
+                Ankstesnė patirtis. Darbas žmogiškųjų išteklių srityje, vadovavimas pardavimų grupėms ir projektams
+                tarptautinėse kompanijose.
+              </p>
+              <p>Esu dviejų (1996 ir 2011 m.) vaikų mama.</p>
             </DialogContent>
             <DialogActions className={classes.modalFooter}>
               <Button onClick={() => setClassicModal(false)} color='primary' simple>
