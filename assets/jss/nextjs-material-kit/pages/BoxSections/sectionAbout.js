@@ -11,7 +11,6 @@ const tabsStyle = {
     background: '#dedede',
     backgroundImage: 'url(' + juratePhoto + ')',
     backgroundPosition: 'right bottom',
-    backgroundSize: '37%',
     backgroundRepeat: 'no-repeat',
     height: '100vh',
     padding: '70px 0',
@@ -27,7 +26,6 @@ const tabsStyle = {
     fontSize: '5rem',
   },
   buttonText: {
-    // fontSize: '1.5rem',
     textDecoration: 'underline',
   },
   orangeFont: {
