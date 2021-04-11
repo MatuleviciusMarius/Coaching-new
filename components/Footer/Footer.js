@@ -36,26 +36,32 @@ export default function Footer(props) {
       <div className={classes.container}>
         <div className={classes.left}>
           <List className={classes.list}>
-            <ListItem className={classes.inlineBlock}>
+            {/* <ListItem className={classes.inlineBlock}>
               <a
                 href='https://www.creative-tim.com/presentation?ref=njsmk-footer'
                 className={classes.block}
                 target='_blank'>
                 Apie
               </a>
-            </ListItem>
+            </ListItem> */}
             <ListItem className={classes.inlineBlock}>
-              <a href='http://blog.creative-tim.com/?ref=njsmk-footer' className={classes.block} target='_blank'>
+              <a
+                href='https://www.linkedin.com/in/j%C5%ABrat%C4%97-lajauskait%C4%97-0b077b87/'
+                className={classes.block}
+                target='_blank'>
                 LinkedIn
               </a>
             </ListItem>
             <ListItem className={classes.inlineBlock}>
-              <a href='https://www.creative-tim.com/license?ref=njsmk-footer' className={classes.block} target='_blank'>
+              <a href='mailto:jurate.lajauskaite@gmail.com' className={classes.block} target='_blank'>
                 Email
               </a>
             </ListItem>
             <ListItem className={classes.inlineBlock}>
-              <a href='https://www.creative-tim.com/license?ref=njsmk-footer' className={classes.block} target='_blank'>
+              <a
+                href='https://www.facebook.com/Paaugli%C5%B3-ir-Jaunimo-kou%C4%8Dingas-105354724995982'
+                className={classes.block}
+                target='_blank'>
                 Facebook
               </a>
             </ListItem>
@@ -85,7 +91,7 @@ export default function Footer(props) {
         </div>
         <div className={classes.right}>
           &copy; {1900 + new Date().getYear()} made with <Favorite className={classes.icon} /> by Marius Matulevičius{' '}
-          for a better life.
+          for a calm life.
         </div>
       </div>
     </footer>

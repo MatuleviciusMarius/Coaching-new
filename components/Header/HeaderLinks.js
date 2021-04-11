@@ -29,7 +29,7 @@ export default function HeaderLinks(props) {
       <ListItem className={classes.listItem}>
         <Tooltip id='linkedin' title='Sekite mane Linkedin' placement={'top'} classes={{ tooltip: classes.tooltip }}>
           <Button
-            href='https://twitter.com/CreativeTim?ref=creativetim'
+            href='https://www.linkedin.com/in/j%C5%ABrat%C4%97-lajauskait%C4%97-0b077b87/'
             target='_blank'
             color='transparent'
             className={classes.navLink}>
@@ -56,7 +56,7 @@ export default function HeaderLinks(props) {
           classes={{ tooltip: classes.tooltip }}>
           <Button
             color='transparent'
-            href='https://www.facebook.com/CreativeTim?ref=creativetim'
+            href='https://www.facebook.com/Paaugli%C5%B3-ir-Jaunimo-kou%C4%8Dingas-105354724995982'
             target='_blank'
             className={classes.navLink}>
             <i className={classes.socialIcons + ' fab fa-facebook'} />
