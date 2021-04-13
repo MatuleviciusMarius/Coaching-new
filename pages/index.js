@@ -41,7 +41,7 @@ export default function Home(props) {
   return (
     <div>
       <Header
-        brand='Jūrate Lajauskaitė'
+        brand='Jūratė Lajauskaitė'
         rightLinks={<HeaderLinks />}
         fixed
         color='transparent'
