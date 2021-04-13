@@ -12,8 +12,15 @@ const tabsStyle = {
     backgroundImage: 'url(' + juratePhoto + ')',
     backgroundPosition: 'right bottom',
     backgroundRepeat: 'no-repeat',
+    backgroundSize: '50%',
     height: '100vh',
     padding: '70px 0',
+    '@media (max-width: 800px)': {
+      backgroundSize: '70%',
+    },
+    '@media (max-width: 500px)': {
+      backgroundSize: '100%',
+    },
   },
   container,
   mainText: {

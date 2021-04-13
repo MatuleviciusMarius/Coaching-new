@@ -11,23 +11,33 @@ const tabsStyle = {
     background: '#dedede',
     backgroundImage: 'url(' + juratePhoto + ')',
     backgroundPosition: 'right bottom',
-    backgroundSize: '43%',
+    backgroundSize: '60%',
     backgroundRepeat: 'no-repeat',
     height: '100vh',
     padding: '70px 0',
+    '@media (max-width: 800px)': {
+      backgroundSize: '70%',
+    },
+    '@media (max-width: 500px)': {
+      backgroundSize: '80%',
+    },
   },
   container,
   mainText: {
     ...textPosition,
     fontSize: '5rem',
     fontFamily: '"GreatVibes", "Helvetica", "Arial", sans-serif',
+    '@media (max-width: 800px)': {
+      fontSize: '4rem',
+    },
+    '@media (max-width: 500px)': {
+      fontSize: '4rem',
+    },
   },
   buttonContainer: {
     ...textPosition,
-    fontSize: '5rem',
   },
   buttonText: {
-    // fontSize: '1.5rem',
     textDecoration: 'underline',
   },
   orangeFont: {

@@ -31,12 +31,13 @@ export default function SectionPradekime() {
     <div className={classes.section}>
       <div className={classes.container}>
         <div id='nav-tabs'>
+          <h3 className={classes.mainText}>Mielieji, aš labai džiaugiuosi,</h3>
           <h3 className={classes.mainText}>
-            Mielieji, aš labai džiaugiuosi, <br /> kad <span className={classes.orangeFont}>Jūs</span> esate čia
+            kad <span className={classes.orangeFont}>Jūs</span> esate čia
           </h3>
           <div className={classes.buttonContainer}>
             <Button className={classes.buttonText} color='transparent' onClick={() => setClassicModal(true)}>
-              Kaip koučingas gali padėti tapti laimingesniais?
+              Kaip koučingas gali padėti <br /> tapti laimingesniais?
             </Button>
           </div>
           <Dialog

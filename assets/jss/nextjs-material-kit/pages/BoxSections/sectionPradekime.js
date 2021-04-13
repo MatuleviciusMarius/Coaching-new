@@ -14,12 +14,23 @@ const tabsStyle = {
     backgroundRepeat: 'no-repeat',
     height: '100vh',
     padding: '70px 0',
+    '@media (max-width: 500px)': {
+      backgroundSize: '80%',
+    },
   },
   container,
   mainText: {
     ...textPosition,
+    overflow: 'visible',
     fontSize: '5rem',
     fontFamily: '"GreatVibes", "Helvetica", "Arial", sans-serif',
+    whiteSpace: 'nowrap',
+    '@media (max-width: 830px)': {
+      fontSize: '3rem',
+    },
+    '@media (max-width: 500px)': {
+      whiteSpace: 'normal',
+    },
   },
   buttonContainer: {
     ...textPosition,
