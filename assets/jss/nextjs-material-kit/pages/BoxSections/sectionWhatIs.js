@@ -4,6 +4,9 @@ import juratePhoto from 'assets/img/Jurate/Jurate-4.png';
 const textPosition = {
   textAlign: 'center',
   padding: '0 15% 0 0',
+  '@media (max-width: 500px)': {
+    padding: '0',
+  },
 };
 
 const tabsStyle = {
