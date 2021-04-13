@@ -74,6 +74,13 @@ export default function HeaderLinks(props) {
           </Button>
         </Tooltip>
       </ListItem>
+      <ListItem className={classes.listItem}>
+        <Tooltip id='Call' title='+37061280062' placement={'top'} classes={{ tooltip: classes.tooltip }}>
+          <Button color='transparent' href='tel:+37061280062' className={classes.navLink}>
+            <i className={classes.socialIcons + ' fa fa-phone-square'} />
+          </Button>
+        </Tooltip>
+      </ListItem>
     </List>
   );
 }

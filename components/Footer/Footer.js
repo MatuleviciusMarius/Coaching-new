@@ -66,6 +66,11 @@ export default function Footer(props) {
               </a>
             </ListItem>
             <ListItem className={classes.inlineBlock}>
+              <a href='https://m.me/jurate.lajauskaite' className={classes.block} target='_blank'>
+                Messenger
+              </a>
+            </ListItem>
+            <ListItem className={classes.inlineBlock}>
               <Button className={classes.block} onClick={(event) => setAnchorElTop(event.currentTarget)}>
                 telefonas
               </Button>
