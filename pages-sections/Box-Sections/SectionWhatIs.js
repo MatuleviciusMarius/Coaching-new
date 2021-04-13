@@ -3,16 +3,11 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 
 // core components
-import GridContainer from 'components/Grid/GridContainer.js';
-import GridItem from 'components/Grid/GridItem.js';
-import CustomTabs from 'components/CustomTabs/CustomTabs.js';
 import Button from 'components/CustomButtons/Button.js';
 import Dialog from '@material-ui/core/Dialog';
 import DialogTitle from '@material-ui/core/DialogTitle';
 import DialogContent from '@material-ui/core/DialogContent';
 import DialogActions from '@material-ui/core/DialogActions';
-import IconButton from '@material-ui/core/IconButton';
-import Close from '@material-ui/icons/Close';
 import Slide from '@material-ui/core/Slide';
 
 import styles from 'assets/jss/nextjs-material-kit/pages/BoxSections/sectionWhatIs.js';
@@ -66,7 +61,7 @@ export default function SectionPradekime() {
               <p>Kaip vyksta pokyčiai gyvenime, kaip pagerinti bendrą laimės ir gerovės lygį?</p>
               <p>
                 Koučingas įgalina: <br />
-                <p className={classes.paddingLeft}>
+                <span className={classes.paddingLeft}>
                   - praplėsti SAVO vizijas ir galimybes, <br />- daryti proveržį SAVO gyvenime, <br />
                   - nustatyti SAVO tikslus, <br />
                   - numatyti SAVO galimas kliūtis siekiant SAVO tikslų, <br />
@@ -74,7 +69,7 @@ export default function SectionPradekime() {
                   - susidėlioti SAVO prioritetus, <br />
                   - išsiaiškinti SAVO vertybes, <br />
                   - rasti SAVO kursą į SAVO sėkmę, <br />- siekti SAVO svajonių.
-                </p>
+                </span>
               </p>
               <p>
                 Kas savaitę vykstančių koučingo sesijų metu koučeris padeda atrakinti jaunuolio/ės viduje slypinčią jėgą
@@ -93,7 +88,7 @@ export default function SectionPradekime() {
               </p>
               <p>
                 Paauglių ir jaunimo koučingas: <br />
-                <p className={classes.paddingLeft}>
+                <span className={classes.paddingLeft}>
                   - patikima investicija į Jūsų paauglio sėkmingesnę ir laimingesnę ateitį, <br />
                   - idealiai tinka paaugliams ir jauniems 14-21 metų žmonėms, <br />
                   - reguliarūs kassavaitiniai skambučiai arba susitikimai, <br />
@@ -101,11 +96,11 @@ export default function SectionPradekime() {
                   - pirmasis pokalbis nemokamas, <br />
                   - koučingo sesijų ciklas: 12 kassavaitinių sesijų per 3 mėnesius, <br />
                   - viena sesija 45 minutės. <br />
-                </p>
-                <p>
+                </span>
+                <span>
                   Pateikite savo klausimus, rūpesčius, užklausą. <br />
                   Atskleiskime sėkmingo ir laimingo jaunimo paslaptis.
-                </p>
+                </span>
               </p>
             </DialogContent>
             <DialogActions className={classes.modalFooter}>

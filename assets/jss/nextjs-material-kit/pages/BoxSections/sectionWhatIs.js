@@ -8,7 +8,7 @@ const textPosition = {
 
 const tabsStyle = {
   section: {
-    background: '#dedede',
+    background: '#d9d9d9',
     backgroundImage: 'url(' + juratePhoto + ')',
     backgroundPosition: 'right bottom',
     backgroundSize: '60%',

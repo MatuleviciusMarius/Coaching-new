@@ -3,16 +3,11 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 
 // core components
-import GridContainer from 'components/Grid/GridContainer.js';
-import GridItem from 'components/Grid/GridItem.js';
-import CustomTabs from 'components/CustomTabs/CustomTabs.js';
 import Button from 'components/CustomButtons/Button.js';
 import Dialog from '@material-ui/core/Dialog';
 import DialogTitle from '@material-ui/core/DialogTitle';
 import DialogContent from '@material-ui/core/DialogContent';
 import DialogActions from '@material-ui/core/DialogActions';
-import IconButton from '@material-ui/core/IconButton';
-import Close from '@material-ui/icons/Close';
 import Slide from '@material-ui/core/Slide';
 
 import styles from 'assets/jss/nextjs-material-kit/pages/BoxSections/sectionPradekime.js';
