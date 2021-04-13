@@ -87,11 +87,13 @@ export default function Footer(props) {
                 <div className={classesPopover.popoverBody}>+37061280062</div>
               </Popover>
             </ListItem>
+            <ListItem className={classes.inlineBlock}>
+              <div className={classes.signature}>
+                &copy; {1900 + new Date().getYear()} made with <Favorite className={classes.icon} /> by Marius
+                Matulevičius for a calm life.
+              </div>
+            </ListItem>
           </List>
-        </div>
-        <div className={classes.right}>
-          &copy; {1900 + new Date().getYear()} made with <Favorite className={classes.icon} /> by Marius Matulevičius{' '}
-          for a calm life.
         </div>
       </div>
     </footer>
