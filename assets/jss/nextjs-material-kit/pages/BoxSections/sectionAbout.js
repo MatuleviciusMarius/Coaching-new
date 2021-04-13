@@ -30,9 +30,9 @@ const tabsStyle = {
   },
   buttonContainer: {
     ...textPosition,
-    fontSize: '5rem',
   },
   buttonText: {
+    fontSize: '1.5rem',
     textDecoration: 'underline',
   },
   orangeFont: {

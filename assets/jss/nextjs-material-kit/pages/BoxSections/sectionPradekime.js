@@ -37,6 +37,10 @@ const tabsStyle = {
   },
   buttonText: {
     textDecoration: 'underline',
+    fontSize: '1.5rem',
+    '@media (max-width: 830px)': {
+      fontSize: '1rem',
+    },
   },
   orangeFont: {
     color: '#f19953',
