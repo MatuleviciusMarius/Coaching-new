@@ -67,21 +67,21 @@ export default function SectionPradekime() {
               <p>
                 <b>Koučingas įgalina:</b> <br />
                 <p className={classes.paddingLeft}>
-                  - praplėsti <b>savo</b> vizijas ir galimybes, <br />
-                  - daryti proveržį <b>savo</b> gyvenime, <br />
-                  - nustatyti <b>savo</b> tikslus, <br />
-                  - numatyti <b>savo</b> galimas kliūtis siekiant SAVO tikslų,<br />
-                  - susikurti <b>savo</b> veiksmų planą, <br />
-                  - susidėlioti <b>savo</b> prioritetus, <br />
-                  - išsiaiškinti <b>savo</b> vertybes, <br />
-                  - rasti <b>savo</b> kursą į savo sėkmę, <br />
-                  - siekti <b>savo</b> svajonių.
+                  - praplėsti savo vizijas ir galimybes, <br />
+                  - daryti proveržį savo gyvenime, <br />
+                  - nustatyti savo tikslus, <br />
+                  - numatyti savo galimas kliūtis siekiant SAVO tikslų,<br />
+                  - susikurti savo veiksmų planą, <br />
+                  - susidėlioti savo prioritetus, <br />
+                  - išsiaiškinti savo vertybes, <br />
+                  - rasti savo kursą į savo sėkmę, <br />
+                  - siekti savo svajonių.
                 </p>
               </p>
               <p>
                 Kas savaitę vykstančių koučingo sesijų metu koučeris padeda
-                <b>atrakinti jaunuolio/ės viduje slypinčią jėgą ir galią.</b> Koučeris aktyviai
-                <b>klauso ir užduoda klausimus</b>, kurie padeda sukurti naują perspektyvą ir įžvalgas. Koučeris talkina
+                 atrakinti jaunuolio/ės viduje slypinčią jėgą ir galią. Koučeris aktyviai
+                klauso ir užduoda klausimus, kurie padeda sukurti naują perspektyvą ir įžvalgas. Koučeris talkina
                 apmąstant pirmuosius žingsnius kaip pasirinkus nenukrypstant eiti pasirinktuoju keliu, atrasti sėkmės
                 įrankius, padeda atskleisti paaugliuose esančias neribotas galimybes. Sesijų metu sužinoma apie kliūtis,
                 trukdančias pasiekti tikslų, aptariami galimi žingsniai, kurie padės jas pašalinti arba jų išvengti.
