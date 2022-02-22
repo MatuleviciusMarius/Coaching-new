@@ -26,13 +26,13 @@ export default function SectionPradekime() {
     <div className={classes.section}>
       <div className={classes.container}>
         <div id='nav-tabs'>
-          <h3 className={classes.mainText}>Jūratė Lajauskaitė</h3>
-          <div className={classes.buttonContainer}>
-            <Button className={classes.buttonText} color='transparent' onClick={() => setClassicModal(true)}>
+          {/* <h3 className={classes.mainText}>Jūratė Lajauskaitė</h3> */}
+          {/* <div className={classes.buttonContainer}> */}
+            {/* <Button className={classes.buttonText} color='transparent' onClick={() => setClassicModal(true)}>
               Apie mane
-            </Button>
-          </div>
-          <Dialog
+            </Button> */}
+          {/* </div> */}
+          {/* <Dialog
             classes={{
               root: classes.center,
               paper: classes.modal,
@@ -45,9 +45,9 @@ export default function SectionPradekime() {
             aria-describedby='classic-modal-slide-description'>
             <DialogTitle id='classic-modal-slide-title' disableTypography className={classes.modalHeader}>
               <h4 className={classes.modalTitle}>Jūratė Lajauskaitė</h4>
-            </DialogTitle>
-            <DialogContent id='classic-modal-slide-description' className={classes.modalBody}>
-              <p>
+            </DialogTitle> */}
+            {/* <DialogContent id='classic-modal-slide-description' className={classes.modalBody}> */}
+              {/* <p>
                 Esu sertifikuota profesionali Erickson Coaching International koučerė. <br />
                 Nuo 2019 m. dirbu paauglių ir jaunimo koučere.
               </p>
@@ -64,14 +64,14 @@ export default function SectionPradekime() {
                 Ankstesnė patirtis. Darbas žmogiškųjų išteklių srityje, vadovavimas pardavimų grupėms ir projektams
                 tarptautinėse kompanijose.
               </p>
-              <p>Esu dviejų (1996 ir 2011 m.) vaikų mama.</p>
-            </DialogContent>
-            <DialogActions className={classes.modalFooter}>
+              <p>Esu dviejų (1996 ir 2011 m.) vaikų mama.</p> */}
+            {/* </DialogContent> */}
+            {/* <DialogActions className={classes.modalFooter}>
               <Button onClick={() => setClassicModal(false)} color='primary' simple>
                 Uždaryti
               </Button>
             </DialogActions>
-          </Dialog>
+          </Dialog> */}
         </div>
       </div>
     </div>

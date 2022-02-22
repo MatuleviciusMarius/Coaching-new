@@ -25,17 +25,18 @@ export default function SectionPradekime() {
   return (
     <div className={classes.section}>
       <div className={classes.container}>
-        <div id='nav-tabs'>
-          <h3 className={classes.mainText}>Mielieji, aš labai džiaugiuosi,</h3>
-          <h3 className={classes.mainText}>
-            kad <span className={classes.orangeFont}>Jūs</span> esate čia
+        <div id='nav-tabs' >
+          <h3>8 Aš visiems linkiu laimės</h3>
+          <h3>8 Man visi linki laimės</h3>
+          {/* <h3 className={classes.mainText}> */}
+            {/* kad <span className={classes.orangeFont}>Jūs</span> esate čia
           </h3>
           <div className={classes.buttonContainer}>
             <Button className={classes.buttonText} color='transparent' onClick={() => setClassicModal(true)}>
               Kaip koučingas gali padėti <br /> tapti laimingesniais?
             </Button>
-          </div>
-          <Dialog
+          </div> */}
+          {/* <Dialog
             classes={{
               root: classes.center,
               paper: classes.modal,
@@ -126,7 +127,7 @@ export default function SectionPradekime() {
                 Uždaryti
               </Button>
             </DialogActions>
-          </Dialog>
+          </Dialog> */}
         </div>
       </div>
     </div>

@@ -40,7 +40,7 @@ export default function Home(props) {
   const { ...rest } = props;
   return (
     <div>
-      <Header
+      {/* <Header
         brand='Jūratė Lajauskaitė'
         rightLinks={<HeaderLinks />}
         fixed
@@ -50,23 +50,23 @@ export default function Home(props) {
           color: 'white',
         }}
         {...rest}
-      />
+      /> */}
       <Parallax image={require('assets/img/header-min.jpg')}>
         <div className={classes.container}>
-          <GridContainer>
+          {/* <GridContainer>
             <GridItem>
               <div className={classes.brand}>
                 <h1 className={classes.title}>Paauglių ir Jaunimo koučingas</h1>
                 <h3 className={classes.subtitle}>Aiškumo, atsakymų ir sprendimų linkme</h3>
               </div>
             </GridItem>
-          </GridContainer>
+          </GridContainer> */}
         </div>
       </Parallax>
       <div className={classNames(classes.main, classes.mainRaised)}>
         <SectionPradekime />
-        <SectionWhatIs />
-        <SectionAbout />
+        {/* <SectionWhatIs /> */}
+        {/* <SectionAbout /> */}
       </div>
       <Footer />
     </div>

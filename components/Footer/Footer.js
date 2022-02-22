@@ -44,7 +44,7 @@ export default function Footer(props) {
                 Apie
               </a>
             </ListItem> */}
-            <ListItem className={classes.inlineBlock}>
+            {/* <ListItem className={classes.inlineBlock}>
               <a
                 href='https://www.linkedin.com/in/j%C5%ABrat%C4%97-lajauskait%C4%97-0b077b87/'
                 className={classes.block}
@@ -92,13 +92,13 @@ export default function Footer(props) {
                 <div className={classesPopover.popoverBody}>+37061280062</div>
               </Popover>
             </ListItem>
-            <ListItem className={classes.inlineBlock}></ListItem>
+            <ListItem className={classes.inlineBlock}></ListItem> */}
           </List>
         </div>
-        <div className={classes.signature + ' ' + classes.right}>
+        {/* <div className={classes.signature + ' ' + classes.right}>
           &copy; {1900 + new Date().getYear()} made with <Favorite className={classes.icon} /> by Marius Matulevičius
           for a calm life.
-        </div>
+        </div> */}
       </div>
     </footer>
   );
